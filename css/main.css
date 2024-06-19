@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Honk&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: public sans;
+}
+
+/*************************************************Header*************************************************/
+/*************************************************Header*************************************************/
+/*************************************************Header*************************************************/
+
+.fondo {
+    min-height: 100vh;
+    height: 100vh;
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+    background-color: rgb(216, 121, 12);
+    padding: 0.2rem;
+    border: 5px groove black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    border-radius: 6px;
+    width: max-content;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu_item:hover {
+    border-bottom: 2px solid;
+    color: black;   
+}
+
+.sin_subrayado {
+    text-decoration: none;
+    color: white;
+}
+/*************************************************Index*************************************************/
+/*************************************************Index*************************************************/
+/*************************************************Index*************************************************/
+
+.fondo-imagen-inicio {
+    padding-bottom: 5rem;
+}
+
+.imagen-inicio {
+    width: 100%
+}
+
+.hero {
+    padding: 7rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+.hero-title {
+    font-size: 5rem;
+}
+}
+.hero-text {
+    font-size: 2rem;
+}
+
+.hero-content {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.493);
+    padding: 1rem;
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.hero-content-alimentos {
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.144);
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+    font-size: 5rem;
+}
+
+.bloques { 
+    padding: 4rem;
+    display: flex;
+    gap: 0.2rem;
+    
+}
+
+.bloque {
+    flex: 2;
+    background-color: rgb(216, 121, 12);
+}
+
+.bloque-img {
+    width: 100%;
+}
+
+.bloque-info {
+    padding: 1rem;
+    background-color: rgb(216, 121, 12);
+
+}
+
+.boton {
+    color: white;
+    text-decoration: none;
+}
+
+/*************************************************Juguetes*************************************************/
+/*************************************************Juguetes*************************************************/
+/*************************************************Juguetes*************************************************/
+
+.flecha_arriba {
+    position: fixed;
+    bottom: 1rem;
+    right: 3rem;
+}
+
+
+
+
+.pie-pagina {
+    background-color: rgb(216, 121, 12);
+}
+
+.info-pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
