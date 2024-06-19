@@ -94,10 +94,8 @@
 }
 
 .hero-content-alimentos {
-    width: 30%;
-    background-color: rgba(255, 255, 255, 0.144);
-    padding: 1rem;
-    backdrop-filter: blur(10px);
+    background-color: rgba(98, 126, 151, 0.486);
+    align-items: center;
     font-size: 5rem;
 }
 
