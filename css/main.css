@@ -145,6 +145,10 @@
     right: 3rem;
 }
 
+.item:hover {
+    background-color: rgb(216, 121, 12);
+
+}
 .pie-pagina {
     background-color: rgb(216, 121, 12);
 }
