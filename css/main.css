@@ -60,6 +60,15 @@
     width: 100%
 }
 
+.caja {
+    background-color: rgba(255, 255, 255, 0.144);
+    padding: 1rem;
+    backdrop-filter: blur(20px);
+    font-size: 5rem;
+    border-radius: 50px;
+    color: black;
+}
+
 .hero {
     padding: 7rem;
     text-align: center;
@@ -119,6 +128,15 @@
     text-decoration: none;
 }
 
+.boton:hover {
+    color: rgb(0, 0, 0);
+}
+
+.titulo-index:hover {
+    border-bottom: 10px;
+    color: black;
+}
+
 /*************************************************Juguetes*************************************************/
 /*************************************************Juguetes*************************************************/
 /*************************************************Juguetes*************************************************/
@@ -129,9 +147,6 @@
     right: 3rem;
 }
 
-
-
-
 .pie-pagina {
     background-color: rgb(216, 121, 12);
 }
@@ -141,6 +156,3 @@
     justify-content: space-between;
     align-items: center;
 }
-
-
-
